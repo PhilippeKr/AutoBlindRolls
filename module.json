@@ -6,12 +6,12 @@
   "authors": [
       { "name": "Tsamsiyu" }
   ],
-  "version": "0.4",
+  "version": "0.5",
   "compatibility": {
       "minimum": 10,
       "verified": "11"
   },
-  "esmodules": [ 
+  "esmodules": [
       "main.js"
   ],
   "socket" : true,
@@ -32,9 +32,19 @@
           "minimum": "4.7.0",
           "verified": "5.2.2"
         }
-      }]
+      },
+      {
+        "id": "cyberpunk-red-core",
+        "type": "system",
+        "manifest": "https://gitlab.com/api/v4/projects/22820629/packages/generic/fvtt-cyberpunk-red-core/latest/system.json",
+        "compatibility": {
+          "minimum": "0.88.2",
+          "verified": "0.88.2"
+        }
+      }
+    ]
     },
   "url":"https://github.com/MatrixWizard/tsamys-secret-rolls",
   "manifest":"https://github.com/MatrixWizard/tsamys-secret-rolls/raw/main/module.json",
-  "download":"https://github.com/MatrixWizard/Tsamys-Secret-Rolls/archive/refs/heads/main.zip"
+  "download":"https://github.com/MatrixWizard/tsamys-secret-rolls/archive/refs/heads/main.zip"
 }
