@@ -5,7 +5,7 @@ A Simple module originally created for the Pathfinder 2nd Edition and D&D5e that
 If "Make Client Side" is toggled off then all chosen options will be applied globally to all clients, if turned on each client will choose which of their rolls should be blind.
 
 This can be achieved by toggling the hide skill options in the game settings page.
-![Option Page pf2e](images/AutoBlindRolls.jpg)
+![Option Page](images/AutoBlindRolls.jpg)
 
 Current Issues:
 - ...
