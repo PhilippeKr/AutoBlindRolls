@@ -19,7 +19,6 @@ export const registerSettingsRQG = function(scope) {
     type: Boolean
   });
 
-export const registerSettingsRQG = function(scope) {
   game.settings.register("auto-blind-rolls", "hideIntrigue", {
     name: "Hide Intrigue",
     scope: scope,
@@ -30,7 +29,6 @@ export const registerSettingsRQG = function(scope) {
 
 
   
-export const registerSettingsRQG = function(scope) {
   game.settings.register("auto-blind-rolls", "hideEvaluate", {
     name: "Hide Evaluate",
     scope: scope,
@@ -41,7 +39,6 @@ export const registerSettingsRQG = function(scope) {
 
 
   
-export const registerSettingsRQG = function(scope) {
   game.settings.register("auto-blind-rolls", "hideSenseChaos", {
     name: "Hide Sense Chaos",
     scope: scope,
@@ -50,7 +47,6 @@ export const registerSettingsRQG = function(scope) {
     type: Boolean
   });
 
-export const registerSettingsRQG = function(scope) {
   game.settings.register("auto-blind-rolls", "hideSenseAssassin", {
     name: "Hide Sense Assassin",
     scope: scope,
@@ -61,7 +57,6 @@ export const registerSettingsRQG = function(scope) {
 
 
   
-export const registerSettingsRQG = function(scope) {
   game.settings.register("auto-blind-rolls", "hideInsight", {
     name: "Hide Insight",
     scope: scope,
@@ -70,7 +65,6 @@ export const registerSettingsRQG = function(scope) {
     type: Boolean
   });
 
-export const registerSettingsRQG = function(scope) {
   game.settings.register("auto-blind-rolls", "hideListen", {
     name: "Hide Listen",
     scope: scope,
@@ -79,7 +73,6 @@ export const registerSettingsRQG = function(scope) {
     type: Boolean
   });
 
-export const registerSettingsRQG = function(scope) {
   game.settings.register("auto-blind-rolls", "hideScan", {
     name: "Hide Scan",
     scope: scope,
@@ -88,7 +81,6 @@ export const registerSettingsRQG = function(scope) {
     type: Boolean
   });
 
-export const registerSettingsRQG = function(scope) {
   game.settings.register("auto-blind-rolls", "hideSearch", {
     name: "Hide Search",
     scope: scope,
@@ -97,7 +89,6 @@ export const registerSettingsRQG = function(scope) {
     type: Boolean
   });
 
-export const registerSettingsRQG = function(scope) {
   game.settings.register("auto-blind-rolls", "hideTrack", {
     name: "Hide Track",
     scope: scope,
@@ -108,7 +99,6 @@ export const registerSettingsRQG = function(scope) {
 
 
   
-export const registerSettingsRQG = function(scope) {
   game.settings.register("auto-blind-rolls", "hideHide", {
     name: "Hide Hide",
     scope: scope,
@@ -117,7 +107,6 @@ export const registerSettingsRQG = function(scope) {
     type: Boolean
   });
 
-export const registerSettingsRQG = function(scope) {
   game.settings.register("auto-blind-rolls", "hideMoveQuietly", {
     name: "Hide Move Quietly",
     scope: scope,
