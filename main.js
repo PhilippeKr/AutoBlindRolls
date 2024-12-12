@@ -21,7 +21,7 @@ Hooks.on('ready', () => {
 
 function startRQG(){
   Hooks.on("preCreateChatMessage", async (rawMessage) => {
-    if (rawMessage.flavor.includes("Skill Check")){
+    if (rawMessage.flavor.includes("Check")){
       if(game.settings.get("auto-blind-rolls", "hideSenseChaos") && rawMessage.flavor.includes("Sense Chaos")){rawMessage.applyRollMode("blindroll");}
     }
 }
