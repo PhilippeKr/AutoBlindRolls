@@ -25,3 +25,4 @@ function startRQG(){
       if(game.settings.get("auto-blind-rolls", "hideSenseChaos") && rawMessage.flavor.includes("Sense Chaos")){rawMessage.applyRollMode("blindroll");}
     }
 }
+}
