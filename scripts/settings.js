@@ -57,6 +57,16 @@ export const registerSettingsRQG = function(scope) {
 
 
   
+  game.settings.register("auto-blind-rolls", "hideConceal", {
+    name: "Hide Conceal",
+    scope: scope,
+    config: true,
+    default: false,
+    type: Boolean
+  });
+
+  
+  
   game.settings.register("auto-blind-rolls", "hideInsight", {
     name: "Hide Insight",
     scope: scope,
