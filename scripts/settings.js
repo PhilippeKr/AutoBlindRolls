@@ -12,7 +12,7 @@ export const registerMainSettings = function() {
 
 export const registerSettingsRQG = function(scope) {
   game.settings.register("auto-blind-rolls", "hideSenseChaos", {
-    name: "Hide Sende Chaos",
+    name: "Hide Sense Chaos",
     scope: scope,
     config: true,
     default: false,
