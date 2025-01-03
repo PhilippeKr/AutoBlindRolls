@@ -125,4 +125,13 @@ export const registerSettingsRQG = function(scope) {
     type: Boolean
   });
 
+  
+  game.settings.register("auto-blind-rolls", "hideDragonRune", {
+    name: "Hide Dragon Rune",
+    scope: scope,
+    config: true,
+    default: false,
+    type: Boolean
+  });
+  
 }
